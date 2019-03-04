@@ -1,0 +1,370 @@
+body{
+	min-height:100%;
+	height:auto;
+	width:100%;
+}
+
+
+
+
+/*********************
+start header area 
+*********************/
+.header{
+    background: url(img/img.jpeg) no-repeat left center;
+    background-size: cover;
+    min-height: 9.347in;
+}
+.header_area h5{
+    font-size: 16pt;
+    margin-top: 3.067in;
+    margin-left: 166px; 
+}   
+.header_area h1{
+    font-size: 46pt;
+    margin-top: -18px;
+}
+.header_area h4{
+    color: #fff;
+    background: #333333;
+    font-size: 12pt;
+    padding: 15px;
+    border-radius: 5px;
+}
+.header_area h3{
+    margin-top: 60px;
+    padding-left: 190px;
+    background: url(img/header.png) no-repeat center; 
+}
+.scroll_icon{
+    margin-top: 62px;
+}
+/*********************
+End header area 
+*********************/
+
+
+
+
+
+
+/*********************
+start Nevigation area 
+*********************/
+.Nevigation_area{
+    min-height: 1.3in;
+    border-bottom: 3px solid #DEDEDE;
+}
+.logo{
+    margin-top: 0.417in;
+}
+.Nevigation ul{
+    float: left;
+    margin-left: 2.3in;
+}
+.Nevigation ul li{
+    float: left;
+    list-style: none;
+    margin-top: 0.550in; 
+}
+.Nevigation ul li a{
+    text-decoration: none; 
+    padding: 15px 13px;
+    font-size: 8.72pt;
+    color: #606060;
+}
+.Nevigation ul li a:hover{
+    background: #00A99D;
+    color: #fff;
+    border-radius: 5px;
+}
+.search{
+    margin-top: 0.550in;
+}
+.search i{
+    margin-left: 20px;
+    color: aqua;
+}
+/*********************
+End Nevigation area 
+*********************/
+
+
+
+
+/*********************
+start Offer area 
+*********************/
+.offer_area{
+    min-height: 7.5in;
+    background: #F9F9F9;
+    position:relative;
+	z-index:50%;
+}
+.offer_head_top{
+    margin-top: 1in;
+    
+}
+.offer_head_top h3{
+    padding-bottom: 13px;
+    background: url(img/header.png) no-repeat center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.offer{
+    color: #00A99D;
+}
+.offer_head_top p{
+    font-size: 14pt;
+}
+
+
+
+
+
+
+.offer_content{
+    margin-top: 0.7in;
+}
+.offer_content img{
+    background: #383838;
+    padding: 31px;
+    border-radius: 47px;
+}
+.offer_content img:hover{
+    background: #00A99D;
+}
+.offer_content a{
+    text-decoration: none;
+    color:#939393;
+    line-height: 50px;
+    padding: 10px;
+    border: 0.5px solid #939393;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.offer_content a:hover{
+    background: #00A99D;
+    color: #fff;
+    border: none;
+}
+.offer_button{
+    
+}
+/*********************
+End Offer area 
+*********************/
+
+
+
+
+
+
+
+
+
+
+/***************************
+Start amazing_features area_top 
+*********************/
+.amazing_top_icon{
+    background: url(img/amazing_top_icon.png) no-repeat center;
+    padding: 50px;
+    margin-top: -50px;
+    position:relative;
+	z-index:100%;
+}
+.amazing_features_area{
+    min-height: 7in;
+    background: #383838;
+}
+.amazing_feature_top{
+    margin-top: 0.5in;
+}
+.amazing_feature_top h3{
+    color: #DBDBDB;
+    text-transform: uppercase;
+    background: url(img/header1.png) no-repeat center;
+}
+.amazing_feature_top p{
+    color: #606060;
+}
+
+
+
+.amazing_feature_bottom_left{
+    margin-top: 1.3in;
+}
+.amazing_feature_bottom_left h3{
+    color: #DBDBDB;
+}
+.amazing_feature_bottom_left p{
+    color: #606060;
+}
+.left_content_left_1{
+    padding-top: 105px;
+    background: url(img/amazing_icon.png) no-repeat left center;
+}
+.left_content_left_2{
+    padding-top: 105px;
+    background: url(img/amazing_icon1.png) no-repeat left center;
+}
+.left_content_left_3{
+    padding-top: 105px;
+    background: url(img/amazing_icon2.png) no-repeat left center;
+}
+.left_content_right{
+    margin-left: -25px;
+}
+.amazing_feature_bottom_right{
+       margin-top: 100px;
+}
+
+/***************************
+End amazing_features area_top 
+*********************/
+
+
+
+
+/***************************
+Start amazing_features area_bottom
+*********************/
+.features{
+    min-height: 6in;
+    position:relative;
+	z-index:50%;
+}
+.features_left_right_content_1 h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.features_left_left_icon_1{
+    margin-left: -14px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon1.png) no-repeat left;
+}
+.features_left_right_content_1{
+            margin-left: 3px;
+    
+}
+.features_left_left_icon_2{
+    margin-left: -29px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon2.png) no-repeat left;
+}
+.features_left_right_content_2{
+    margin-left: 3px;
+}
+.features_left_right_content_2 h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.features_left_left_icon_3{
+    margin-left: -54px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon3.png) no-repeat left;
+}
+.features_left_left_icon_4{
+    margin-left: -13px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon4.png) no-repeat left;
+}
+.features_left_left_icon_5{
+    margin-left: -26px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon5.png) no-repeat left;
+}
+.features_left_left_icon_6{
+    margin-left: -54px;
+    padding-top: 125px;
+    background: url(img/features_top_left_icon6.png) no-repeat left;
+}
+.features_left_right_content_3{
+    margin-left: 11px; 
+}
+.features_left_right_content_3 h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.TOP{
+    margin-top: 80px;
+}
+.BOTTOM{
+    margin-top: 43px;
+}
+/***************************
+End amazing_features area_bottom
+*********************/
+
+
+
+
+
+/***************************
+start our_powerful_skills_area
+*********************/
+.skill_top_icon{
+    background: url(img/amazing_top_icon1.png) no-repeat center;
+    padding: 29px;
+    margin-top: -29px;
+    position:relative;
+	z-index:100%;
+}
+.our_powerful_skills_area{
+    min-height: 5in;
+    background: #383838;
+}
+.our_powerful_skills_header h3{
+    
+    text-transform: uppercase;
+    color: #E4E4E4;
+    margin-top: 1in;
+    background: url(img/header1.png) no-repeat center;
+}
+.our_powerful_skills_header p{
+    color: #606060;
+}
+.skills{
+    color: #00A99D;
+}
+.our_powerful_skills_bottom{
+    margin-top: 70px;
+}
+
+
+
+/***************************
+End our_powerful_skills_area
+*********************/
+
+.chart{
+    position: relative;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 120px;
+    color: #fff;
+}
+.box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box h2{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10pt;
+
+}
